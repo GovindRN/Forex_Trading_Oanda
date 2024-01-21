@@ -34,3 +34,36 @@ For security reasons, this file has dummy values.
 A Bollinger Band consists of a middle band (which is a moving average) and an upper and lower band. These upper and lower bands are set above and below the moving average by a certain number of standard deviations of price, thus incorporating volatility. The buy and sell decisions can be taken whenever middle band crosses the upper or lower bands. Our analysis is primarily based on closing price and we will test Long-Short Strategy. 
 
 A strategy that has profitable outcomes in both back testing and forward testing scenario is considered a successful.
+
+## High Level Implementation
+
+![image](https://github.com/GovindNedunchezian/Trading_Project/assets/74553299/2c83ba8c-5e2f-4c72-aa9e-96ce37d93963)
+
+
+## Programming Techniques:
+
+We have used the following 3 programming models to implement our strategy
+
+ - Unstructured programming 
+	 - Setting chart theme
+	 - SMA Crossover strategy with minute level close price
+ - Functional programming 
+	 - SMA Crossover strategy 5 with minute level close price
+ - Object-programming
+	 - SMA Crossover strategy with minute level close price
+	 - SMA Crossover strategy with day level close price
+
+## Conclusion
+
+The chart and the outperform(positive) values from both standard and optimized parameters shows that our strategy outperforms buy-and-hold strategy at day level with both back testing and forward testing. We can consider this strategy for trading EURUSD Forex.
+
+
+## Knowledge and Code References
+
+**Udemy** 
+ - Forex strategies for algorithmic trading 2022 - Lucas Inglese
+ - Algorithmic Trading A-Z with Python, Machine Learning & AWS - Alexander Hagmann
+
+**Book**
+ - The Art of Currency Trading - Brent Donnelly  
+ - Machine Learning for Algorithmic Trading - Stefan Jansen
