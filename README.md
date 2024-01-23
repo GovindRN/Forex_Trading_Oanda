@@ -1,5 +1,5 @@
-# Trading Project
-This GitHub repository will be used to host project files implementing trading strategies in various programming models along with data science and machine learning techniques.
+# Forex Trading Project
+This GitHub repository will be used to host project files implementing forex trading strategies in various programming models.
 
 The goal of this project is to **automate Forex trading of EURUSD**. For this we would need to identify a trading platform and trading strategy that drives the trading decisions.
 
